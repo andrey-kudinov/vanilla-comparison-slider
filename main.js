@@ -8,11 +8,11 @@ const slider = (selector) => {
   let widthChange = 0;
   let mouseDown = false;
 
-  container.querySelector('.before-inset').style.width = `${container.offsetWidth}px`;
+  container.querySelector('.before-inner').style.width = `${container.offsetWidth}px`;
 
   const resizeObserver = new ResizeObserver((entries) => {
       for (let entry of entries) {
-          container.querySelector('.before-inset').style.width = `${entry.contentRect.width}px`;
+          container.querySelector('.before-inner').style.width = `${entry.contentRect.width}px`;
       }
   });
   resizeObserver.observe(container);

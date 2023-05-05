@@ -51,7 +51,7 @@ body {
   filter: blur(5px);
 }
 
-.before-inset {
+.before-inner {
   position: absolute;
   top: 0;
   bottom: 0;
