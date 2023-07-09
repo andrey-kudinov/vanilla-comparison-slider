@@ -26,7 +26,7 @@ const slider = (selector) => {
           if (event !== 'mousemove' && e.touches.length !== 1) {
               return;
           }
-          if (!mouseDown) {
+          if (!mouseDown && e.touches.length !== 1) {
               return;
           }
 
