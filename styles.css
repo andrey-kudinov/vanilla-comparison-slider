@@ -50,7 +50,7 @@ body {
 }
 
 .before img {
-  filter: blur(5px);
+  /* filter: blur(5px); */
 }
 
 .before-inner {
